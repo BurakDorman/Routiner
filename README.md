@@ -1,3 +1,10 @@
+# RoutinerApp_React
+React Native, cross platform version of Routiner App.
+
+My goals as a developer with this project are to deepen my expertise in React and TypeScript, enhance my proficiency in Version Control, and strengthen my skills in Algorithmic Thinking, and Database Management. Ultimately, I aim to build an application that helps many people—including myself—achieve their personal goals.
+
+
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
