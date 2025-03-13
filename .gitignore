@@ -1,6 +1,6 @@
 # API KEYS
 #
-services/
+src/services/firebase.ts
 
 # OSX
 #
