@@ -128,9 +128,3 @@ const styles = StyleSheet.create({
     fontWeight: '700',
   },
 });
-
-//export default App;
-
-export default function App() {
-  return <AppNavigator />;
-}
