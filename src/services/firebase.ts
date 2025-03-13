@@ -1,15 +1,17 @@
 import { initializeApp } from 'firebase/app';
 import { getAuth } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
-import { getEnv } from 'react-native-dotenv'; // Use dotenv for Expo
+
+// Import environment variables
+import { API_KEY, AUTH_DOMAIN, PROJECT_ID, STORAGE_BUCKET, MESSAGING_SENDER_ID, APP_ID } from '@env';
 
 const firebaseConfig = {
-  apiKey: getEnv('API_KEY'),
-  authDomain: getEnv('AUTH_DOMAIN'),
-  projectId: getEnv('PROJECT_ID'),
-  storageBucket: getEnv('STORAGE_BUCKET'),
-  messagingSenderId: getEnv('MESSAGING_SENDER_ID'),
-  appId: getEnv('APP_ID'),
+  apiKey: API_KEY,
+  authDomain: AUTH_DOMAIN,
+  projectId: PROJECT_ID,
+  storageBucket: STORAGE_BUCKET,
+  messagingSenderId: MESSAGING_SENDER_ID,
+  appId: APP_ID,
 };
 
 const app = initializeApp(firebaseConfig);
