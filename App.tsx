@@ -6,6 +6,7 @@
  */
 
 import React from 'react';
+import AppNavigator from './src/navigation/AppNavigator';
 import type {PropsWithChildren} from 'react';
 import {
   ScrollView,
@@ -128,4 +129,8 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+//export default App;
+
+export default function App() {
+  return <AppNavigator />;
+}
