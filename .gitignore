@@ -1,6 +1,7 @@
-# API KEYS
+# Ignore environment variables
 #
-src/services/firebase.ts
+.env
+#src/services/firebase.ts
 
 # OSX
 #
